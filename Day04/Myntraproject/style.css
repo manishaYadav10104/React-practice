@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* adjust as needed */
+  background-color: white;
+  z-index: 1000; /* ensure it stays above everything */
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px ;
+}
+
+
+.images{
+    
+    position: relative;
+    left: 60px;
+    top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.option{
+    
+    padding-top: 10px;
+}
+
+
+
+
+.but, .pro{
+    
+    margin-right:10px ;
+    height: 25px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.searchbar{
+    background-color: rgb(205, 197, 197);
+    border-radius:10px ;
+
+    width: 350px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+    /* cursor: pointer; */
+}
+
+
+.profile{
+    display: flex;
+    padding-top: 10px;
+    padding-right:20px ;
+}
+
+.middle{
+    margin-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(246, 246, 241);
+    padding-left:50px ;
+    padding-right: 50px;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(47, 103, 47);
+    color: white;
+    
+}
+
+
+.footer {
+  background-color: #f3ebeb;
+  padding: 40px 20px 10px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footer-section h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.app-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.app-links img {
+  width: 120px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding: 15px 0 5px;
+  font-size: 13px;
+  color: #777;
+}

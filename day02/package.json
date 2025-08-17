@@ -1,0 +1,25 @@
+{
+  "name": "reactbasic",
+  "version": "1.0.0",
+  "description": "\"learning React\"",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishaYadav10104/React.git"
+  },
+  "author": "manisha yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishaYadav10104/React/issues"
+  },
+  "homepage": "https://github.com/manishaYadav10104/React#readme",
+  "dependencies": {
+    "dom": "^0.0.3",
+    "parcel": "^2.15.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

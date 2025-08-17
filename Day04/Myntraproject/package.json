@@ -1,0 +1,31 @@
+{
+  "name": "myntraproject",
+  "version": "1.0.0",
+ "scripts": {
+  "dev": "parcel src/index.html",
+  "build": "parcel build src/index.html",
+
+  "clean": "rm -rf dist .parcel-cache"
+}
+,
+  "author": "Manisha Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishaYadav10104/Myntra-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manishaYadav10104/Myntra-clone/issues"
+  },
+  "homepage": "https://github.com/manishaYadav10104/Myntra-clone#readme",
+  "description": ""
+}
